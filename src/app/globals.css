@@ -1,8 +1,15 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #eef3f0;
+  --foreground: #0f172a;
+}
+
+.dark {
+  --background: #07140f;
+  --foreground: #e2e8f0;
 }
 
 @theme inline {
@@ -12,15 +19,211 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #fed7aa;
+  color: #064e3b;
+}
+
+.app-gradient {
+  background:
+    radial-gradient(circle at 16% 10%, rgb(16 185 129 / 0.2), transparent 28rem),
+    radial-gradient(circle at 84% 6%, rgb(249 115 22 / 0.13), transparent 25rem),
+    linear-gradient(135deg, #f7fbf8 0%, #eef7f1 48%, #f8fafc 100%);
+}
+
+.dark .app-gradient {
+  background:
+    radial-gradient(circle at 18% 8%, rgb(16 185 129 / 0.22), transparent 28rem),
+    radial-gradient(circle at 86% 10%, rgb(249 115 22 / 0.16), transparent 25rem),
+    linear-gradient(135deg, #07140f 0%, #0f1f1a 50%, #0f172a 100%);
+}
+
+.glass-panel {
+  backdrop-filter: blur(18px);
+  box-shadow: 0 18px 45px rgb(15 23 42 / 0.07);
+}
+
+.interactive-card {
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    background-color 180ms ease;
+}
+
+.interactive-card:hover {
+  border-color: #fb923c;
+  box-shadow:
+    0 16px 34px rgb(15 23 42 / 0.12),
+    0 0 0 1px rgb(251 146 60 / 0.28),
+    0 0 28px rgb(251 146 60 / 0.22);
+  transform: translateY(-4px);
+}
+
+.interactive-button {
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    background-color 160ms ease;
+}
+
+.interactive-button:hover {
+  border-color: #fb923c;
+  box-shadow: 0 10px 26px rgb(251 146 60 / 0.2);
+  transform: translateY(-1px);
+}
+
+.leaflet-container {
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+.leaflet-tooltip {
+  border: 1px solid rgb(15 118 110 / 0.25);
+  border-radius: 6px;
+  color: #0f172a;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  box-shadow:
+    0 18px 36px rgb(15 23 42 / 0.2),
+    0 0 0 1px rgb(15 118 110 / 0.16);
+}
+
+.leaflet-popup-content {
+  margin: 0;
+}
+
+.village-popup {
+  width: min(340px, calc(100vw - 72px));
+  overflow: hidden;
+  border-radius: 8px;
+  color: #172033;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+.village-popup__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border-bottom: 1px solid #d6dde5;
+  background: #f8fafc;
+}
+
+.village-popup__title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.25;
+  color: #0f172a;
+}
+
+.village-popup__subtitle {
+  margin: 4px 0 0;
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.village-popup__table {
+  max-height: 245px;
+  overflow: auto;
+  padding: 8px;
+  background: #f1f5f9;
+}
+
+.village-popup__row {
+  display: grid;
+  grid-template-columns: minmax(118px, 0.92fr) minmax(128px, 1.08fr);
+  min-height: 31px;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.village-popup__row span,
+.village-popup__row strong {
+  display: flex;
+  align-items: center;
+  padding: 7px 9px;
+}
+
+.village-popup__row span {
+  background: #e2e8f0;
+  font-weight: 600;
+  color: #334155;
+}
+
+.village-popup__row strong {
+  background: #f8fafc;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.village-popup__row:nth-child(even) span {
+  background: #d8dee6;
+}
+
+.village-popup__row:nth-child(even) strong {
+  background: #edf2f7;
+}
+
+.village-popup__note {
+  padding: 9px 12px;
+  border-top: 1px solid #d6dde5;
+  background: #fffbeb;
+  font-size: 10px;
+  line-height: 1.45;
+  color: #713f12;
+}
+
+.village-marker {
+  background: transparent;
+  border: 0;
+}
+
+.village-marker span {
+  position: relative;
+  display: block;
+  width: 24px;
+  height: 24px;
+  transform: rotate(-45deg);
+  border: 2px solid #ffffff;
+  border-radius: 50% 50% 50% 0;
+  background: #f97316;
+  box-shadow:
+    0 10px 22px rgb(15 23 42 / 0.28),
+    0 0 0 5px rgb(249 115 22 / 0.18);
+}
+
+.village-marker span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  content: "";
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  background: #ffffff;
+}
+
+.village-marker--selected span {
+  width: 30px;
+  height: 30px;
+  background: #10b981;
+  box-shadow:
+    0 14px 28px rgb(15 23 42 / 0.34),
+    0 0 0 7px rgb(16 185 129 / 0.22),
+    0 0 30px rgb(251 146 60 / 0.45);
 }
