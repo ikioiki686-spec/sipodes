@@ -1,0 +1,2891 @@
+:root {
+  --navy-950: #070b16;
+  --navy-900: #0d1220;
+  --navy-800: #151d2e;
+  --glass: rgba(255, 255, 255, 0.1);
+  --glass-strong: rgba(255, 255, 255, 0.16);
+  --border: rgba(255, 255, 255, 0.17);
+  --text: #ffffff;
+  --muted: #b7c0ce;
+  --blue: #008bd2;
+  --green: #20b261;
+  --orange: #f29b20;
+  color: var(--text);
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0rem 0 0;
+  min-width: 320px;
+  overflow-x: hidden;
+  background: var(--navy-950);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.portalShell {
+  display: grid;
+  grid-template-rows: 64px minmax(420px, 1fr) auto;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.backgroundImage {
+  background:
+    linear-gradient(rgba(9, 13, 25, 0.14), rgba(9, 13, 25, 0.28)),
+    url("/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: blur(4px);
+  inset: -8px;
+  position: fixed;
+  transform: scale(1.02);
+  z-index: -3;
+}
+
+.screenOverlay {
+  background:
+    linear-gradient(180deg, rgba(16, 22, 34, 0.68) 0%, rgba(16, 22, 34, 0.56) 48%, rgba(9, 13, 25, 0.86) 100%),
+    radial-gradient(circle at 74% 42%, rgba(0, 139, 210, 0.14), transparent 32%),
+    radial-gradient(circle at 52% 78%, rgba(242, 155, 32, 0.12), transparent 28%);
+  inset: 0;
+  position: fixed;
+  z-index: -2;
+}
+
+.portalHeader,
+.portalFooter {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: clamp(0.85rem, 5vw, 8.6rem);
+  padding-right: clamp(0.85rem, 5vw, 8.6rem);
+}
+
+.portalHeader {
+  background: rgba(21, 29, 46, 0.97);
+  box-shadow: 0 10px 30px rgba(5, 8, 16, 0.22);
+  z-index: 20;
+  height: 64px;
+}
+
+.portalFooter {
+  background: rgba(8, 12, 25, 0.95);
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  z-index: 2;
+}
+
+
+.portalLogo {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.28rem;
+  min-width: 0;
+}
+
+.portalLogoImage {
+  display: block;
+  flex: 0 0 auto;
+  height: 44px;
+  object-fit: contain;
+  width: 60px;
+}
+
+.portalLogo.small .portalLogoImage {
+  height: 34px;
+  width: 34px;
+}
+
+.portalLogo span:last-child {
+  display: grid;
+  gap: 0.08rem;
+}
+
+.portalLogo strong {
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.portalLogo small {
+  color: #d9deeb;
+  font-size: 0.56rem;
+  font-weight: 750;
+  letter-spacing: 0;
+  line-height: 1.15;
+}
+
+.portalLogo.small strong {
+  font-size: 0.9rem;
+}
+
+.portalLogo.small small {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.bpsMark {
+  display: inline-grid;
+  flex: 0 0 auto;
+  gap: 3px;
+  grid-template-columns: repeat(2, 17px);
+  height: 41px;
+  place-items: center;
+  position: relative;
+  transform: rotate(-8deg);
+  width: 42px;
+}
+
+.bpsMark::before {
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  border-radius: 13px;
+  content: "";
+  inset: -6px;
+  position: absolute;
+}
+
+.bpsMark.compact {
+  gap: 2px;
+  grid-template-columns: repeat(2, 13px);
+  height: 31px;
+  width: 32px;
+}
+
+.bpsMark.compact::before {
+  border-radius: 9px;
+  inset: -5px;
+}
+
+.markTile {
+  border-radius: 4px;
+  display: block;
+  height: 16px;
+  width: 16px;
+}
+
+.bpsMark.compact .markTile {
+  border-radius: 3px;
+  height: 12px;
+  width: 12px;
+}
+
+.markTile.blue {
+  background: var(--blue);
+}
+
+.markTile.green {
+  background: var(--green);
+}
+
+.markTile.orange {
+  background: var(--orange);
+}
+
+.markTile.tall {
+  height: 25px;
+  transform: translateY(5px);
+}
+
+.markTile.small {
+  opacity: 0.85;
+}
+
+.loginButton {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 9px;
+  color: #f6f8fb;
+  display: inline-flex;
+  font-size: 0.86rem;
+  font-weight: 800;
+  gap: 0.5rem;
+  justify-content: center;
+  min-height: 38px;
+  padding: 0.58rem 1.15rem;
+  transition:
+    background 170ms ease,
+    border-color 170ms ease,
+    transform 170ms ease;
+}
+
+.loginButton:hover {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.35);
+  transform: translateY(-1px);
+}
+
+.heroSection {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: clamp(0.5rem, 2vw, 1.5rem) clamp(1rem, 9.5vw, 8.6rem) clamp(2rem, 5vw, 4rem);
+  text-align: center;
+  z-index: 1;
+}
+
+.heroSection h1 {
+  color: #fff;
+  font-size: clamp(4.1rem, 9vw, 6.2rem);
+  font-weight: 950;
+  letter-spacing: 0;
+  line-height: 0.9;
+  margin: 5rem 0 0;
+  text-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
+}
+
+.heroSection p {
+  color: var(--muted);
+  font-size: clamp(0.93rem, 1.45vw, 1.06rem);
+  line-height: 1.45;
+  margin: 3rem 0 0;
+}
+
+.searchBox {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.11);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  color: #aeb9ca;
+  display: flex;
+  gap: 0.7rem;
+  height: 43px;
+  margin-top: 1.3rem;
+  max-width: 345px;
+  order: 3;
+  padding: 0 1rem;
+  width: min(100%, 345px);
+}
+
+.searchBox:focus-within {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.34);
+}
+
+.searchBox input {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  flex: 1;
+  min-width: 0;
+  outline: 0;
+}
+
+.searchBox input::placeholder {
+  color: #abb6c8;
+}
+
+.appGrid {
+  display: grid;
+  gap: clamp(0.75rem, 1.35vw, 1.15rem);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 1.5rem;
+  max-width: 1085px;
+  order: 4;
+  width: 100%;
+}
+
+.appCard {
+  align-items: center;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.075));
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  display: flex;
+  gap: 1rem;
+  min-height: 72px;
+  overflow: hidden;
+  padding: 0.92rem 1rem;
+  text-align: left;
+  transition:
+    background 170ms ease,
+    border-color 170ms ease,
+    transform 170ms ease;
+}
+
+.appCard:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.19), rgba(255, 255, 255, 0.11));
+  border-color: rgba(255, 255, 255, 0.28);
+  transform: translateY(-2px);
+}
+
+.appIcon {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 12px;
+  color: var(--green);
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 39px;
+  justify-content: center;
+  width: 39px;
+}
+
+.appIcon.blue {
+  background: #eaf4ff;
+  border-color: #c7e2fa;
+  color: #0d74c5;
+}
+
+.appIcon.green {
+  background: #ecfdf5;
+  border-color: #bbf7d0;
+  color: #159a54;
+}
+
+.appIcon.orange {
+  background: #fff7ed;
+  border-color: #fed7aa;
+  color: #e28512;
+}
+
+.appIcon.slate {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+  color: #334155;
+}
+
+.appIcon img {
+  border-radius: 9px;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.appCopy {
+  display: grid;
+  gap: 0.28rem;
+  min-width: 0;
+}
+
+.appCopy strong {
+  color: #fff;
+  font-size: 0.92rem;
+  font-weight: 850;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.appCopy small {
+  color: #c5cedd;
+  font-size: 0.78rem;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.copyright {
+  align-items: center;
+  color: #8793aa;
+  display: inline-flex;
+  font-size: 0.76rem;
+  gap: 0.35rem;
+  margin: 0;
+}
+
+.modalLayer {
+  align-items: center;
+  background: rgba(4, 7, 14, 0.85);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  overflow-y: auto;
+  padding: 1.5rem 1rem;
+  position: fixed;
+  z-index: 30;
+}
+
+/* Login Design - persis style1.css / login.html */
+
+/* Pusatkan bars + box secara overlay */
+.loginModalCenter {
+  flex-shrink: 0;
+  position: relative;
+}
+
+/* 440x440 — radius ~236px, bars melingkar di DEPAN card */
+.loginContainer {
+  height: 440px;
+  left: 50%;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 440px;
+  z-index: 20;
+}
+
+/* circle-container yang BERPUTAR — persis style1.css */
+.loginCircle {
+  animation: loginRotate 20s linear infinite;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+@keyframes loginRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Bar — transform-origin center 220px = tengah container 440px */
+.loginBar {
+  background: #4a5f7f;
+  border-radius: 4px;
+  display: block;
+  height: 35px;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform-origin: center 220px;
+  transition: background 0.3s ease;
+  width: 8px;
+}
+
+/* Active — oranye menyala */
+.loginBar.active {
+  background: linear-gradient(180deg, #ffa500, #ff8c00);
+  box-shadow: 0 0 20px rgba(255, 165, 0, 0.8);
+}
+
+
+
+/* Login Box Card */
+.loginBox {
+  background: rgba(30, 42, 58, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  position: relative;
+  width: min(420px, calc(100vw - 2rem));
+  z-index: 10;
+}
+
+@media (max-width: 600px) {
+  .modalLayer {
+    padding: 1rem 0.75rem;
+  }
+
+  /* 380x380 — radius 190px, pas di sekitar card ~360px mobile */
+  .loginContainer {
+    height: 380px;
+    width: 380px;
+  }
+
+  .loginBox {
+    border-radius: 16px;
+    padding: 1.1rem 1rem 0.9rem;
+    width: calc(100vw - 1.5rem);
+  }
+
+  .loginLogo {
+    margin-bottom: 0.25rem;
+  }
+
+  .loginLogoImg {
+    height: 38px;
+    width: 38px;
+  }
+
+  .loginTitle {
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.1rem;
+  }
+
+  .loginSubtitle {
+    font-size: 0.7rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .loginForm2 {
+    gap: 0.75rem;
+  }
+
+  .loginInputGroup input {
+    font-size: 0.85rem;
+    padding: 10px 36px 10px 13px;
+  }
+
+  .loginSubmitBtn {
+    font-size: 0.88rem;
+    min-height: 42px;
+    margin-top: 0.2rem;
+  }
+
+  .loginError {
+    font-size: 0.78rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .loginFooter {
+    font-size: 0.63rem;
+    margin-top: 0.5rem;
+  }
+
+  .closeButton {
+    height: 26px;
+    right: 0.6rem;
+    top: 0.6rem;
+    width: 26px;
+  }
+}
+
+.loginLogo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.6rem;
+}
+
+.loginLogoImg {
+  height: 54px;
+  object-fit: contain;
+  width: 54px;
+}
+
+.loginTitle {
+  color: #ffa500;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 0 0 0.25rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.loginSubtitle {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.78rem;
+  margin: 0 0 1.9rem;
+  text-align: center;
+}
+
+/* Input Groups */
+.loginForm2 {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.loginInputGroup {
+  position: relative;
+}
+
+.loginInputGroup input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  color: #fff;
+  font-size: 0.9rem;
+  outline: none;
+  padding: 12px 40px 12px 15px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+}
+
+.loginInputGroup input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.loginInputGroup input:focus {
+  border-color: #ffa500;
+  box-shadow: 0 0 15px rgba(255, 165, 0, 0.3);
+}
+
+.loginInputIcon {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-flex;
+  font-size: 1rem;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  width: 28px;
+}
+
+.loginTogglePass {
+  cursor: pointer;
+}
+
+.loginTogglePass:hover {
+  color: #ffa500;
+}
+
+/* Forgot Password */
+.loginForgot {
+  margin-bottom: 1.5rem;
+  margin-top: -1rem;
+  text-align: right;
+}
+
+.loginForgot a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.75rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.loginForgot a:hover {
+  color: #ffa500;
+}
+
+/* Submit Button */
+.loginSubmitBtn {
+  background: linear-gradient(90deg, #ffa500, #ff8c00);
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 0.4rem;
+  min-height: 48px;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+}
+
+.loginSubmitBtn:hover:not(:disabled) {
+  box-shadow: 0 10px 30px rgba(255, 165, 0, 0.5);
+  transform: translateY(-2px);
+}
+
+.loginSubmitBtn:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+/* Ripple effect */
+.loginSubmitBtn::before {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  content: "";
+  height: 0;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease, height 0.6s ease;
+  width: 0;
+}
+
+.loginSubmitBtn:active::before {
+  height: 300px;
+  width: 300px;
+}
+
+/* Social Login */
+.loginSocial {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.loginSocial p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  margin-bottom: 0.9rem;
+}
+
+.loginSocialIcons {
+  display: flex;
+  gap: 0.9rem;
+  justify-content: center;
+}
+
+.loginSocialIcon {
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1.1rem;
+  height: 40px;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 40px;
+}
+
+.loginSocialIcon.facebook {
+  background: #3b5998;
+}
+
+.loginSocialIcon.twitter {
+  background: #000;
+}
+
+.loginSocialIcon.google {
+  background: #db4437;
+}
+
+.loginSocialIcon:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px) scale(1.1);
+}
+
+/* Signup Link */
+.loginSignup {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.loginSignup a {
+  color: #ffa500;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.loginSignup a:hover {
+  color: #ff8c00;
+  text-decoration: underline;
+}
+
+/* Footer & close button */
+.loginFooter {
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 0.72rem;
+  margin: 1rem 0 0;
+  text-align: center;
+}
+
+.closeButton {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  color: #d8dfec;
+  display: inline-flex;
+  height: 30px;
+  justify-content: center;
+  position: absolute;
+  right: 0.9rem;
+  top: 0.9rem;
+  width: 30px;
+}
+
+.closeButton:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+
+
+/* login error */
+.loginError {
+  align-items: center;
+  background: rgba(220, 38, 38, 0.15);
+  border: 1px solid rgba(220, 38, 38, 0.4);
+  border-radius: 10px;
+  color: #fca5a5;
+  display: flex;
+  font-size: 0.82rem;
+  font-weight: 700;
+  gap: 0.45rem;
+  margin-bottom: 0.85rem;
+  padding: 0.6rem 0.9rem;
+}
+
+.loginForm label {
+  color: #e7ebf3;
+  display: grid;
+  font-size: 0.82rem;
+  font-weight: 750;
+  gap: 0.45rem;
+}
+
+.loginForm label div {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 11px;
+  color: #aeb9ca;
+  display: flex;
+  gap: 0.7rem;
+  min-height: 46px;
+  padding: 0 0.85rem;
+}
+
+.loginForm label div:focus-within {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.loginForm input {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  flex: 1;
+  min-width: 0;
+  outline: 0;
+}
+
+.loginForm input::placeholder {
+  color: #8793aa;
+}
+
+.submitButton {
+  align-items: center;
+  background: linear-gradient(135deg, var(--blue), #0d74c5);
+  border: 0;
+  border-radius: 11px;
+  color: #fff;
+  display: inline-flex;
+  font-weight: 850;
+  gap: 0.5rem;
+  justify-content: center;
+  min-height: 46px;
+  margin-top: 0.25rem;
+  transition: filter 170ms ease, opacity 170ms ease;
+  width: 100%;
+}
+
+.submitButton:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.submitButton:hover:not(:disabled) {
+  filter: brightness(1.08);
+}
+
+/* Login error banner */
+.loginError {
+  align-items: center;
+  background: rgba(220, 38, 38, 0.12);
+  border: 1px solid rgba(220, 38, 38, 0.35);
+  border-radius: 10px;
+  color: #fca5a5;
+  display: flex;
+  font-size: 0.86rem;
+  font-weight: 700;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  padding: 0.7rem 0.9rem;
+}
+
+/* Toggle password button inside input */
+.togglePassBtn {
+  background: transparent;
+  border: 0;
+  color: #aeb9ca;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0 0.2rem;
+}
+
+.togglePassBtn:hover {
+  color: #fff;
+}
+
+.workPortal {
+  background: #f0f4f9;
+  color: #172033;
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  min-height: 100vh;
+  position: relative;
+}
+
+/* ── Sidebar ─────────────────────────────────────────────────────────────── */
+.workSidebar {
+  background: linear-gradient(180deg, #0f1824 0%, #070c17 100%);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 4px 0 24px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: grid;
+  gap: 0;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  padding: 0;
+}
+
+/* Logo area */
+.workSidebar .portalLogo {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  padding: 1.1rem 1.1rem 1rem;
+}
+
+/* Nav */
+.workNav {
+  display: grid;
+  gap: 0.2rem;
+  align-content: start;
+  padding: 1rem 0.75rem;
+}
+
+/* Nav label section */
+.workNav::before {
+  content: "MENU";
+  color: rgba(255, 255, 255, 0.25);
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  padding: 0 0.5rem 0.6rem;
+}
+
+.workNavButton {
+  align-items: center;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: #94a3b8;
+  display: inline-flex;
+  font-size: 0.875rem;
+  font-weight: 650;
+  gap: 0.75rem;
+  min-height: 42px;
+  padding: 0.6rem 0.85rem;
+  text-align: left;
+  transition: all 160ms ease;
+  width: 100%;
+}
+
+.workNavButton svg {
+  flex: 0 0 auto;
+  opacity: 0.7;
+  transition: opacity 160ms ease;
+}
+
+.workNavButton:hover {
+  background: rgba(255, 255, 255, 0.07);
+  color: #e2e8f0;
+}
+
+.workNavButton:hover svg {
+  opacity: 1;
+}
+
+.workNavButton.active {
+  background: linear-gradient(135deg, rgba(255, 165, 0, 0.18), rgba(255, 140, 0, 0.1));
+  border-color: rgba(255, 165, 0, 0.25);
+  color: #ffa500;
+  font-weight: 800;
+}
+
+.workNavButton.active svg {
+  opacity: 1;
+  color: #ffa500;
+}
+
+/* Logout button */
+.logoutButton {
+  align-items: center;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: 10px;
+  color: #fca5a5;
+  display: inline-flex;
+  font-size: 0.875rem;
+  font-weight: 750;
+  gap: 0.75rem;
+  justify-content: center;
+  margin: 0 0.75rem 1rem;
+  min-height: 42px;
+  padding: 0.6rem 0.85rem;
+  transition: all 170ms ease;
+  width: calc(100% - 1.5rem);
+}
+
+.logoutButton:hover {
+  background: rgba(239, 68, 68, 0.2);
+  border-color: rgba(239, 68, 68, 0.4);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+/* ── Topbar ──────────────────────────────────────────────────────────────── */
+.workMain {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-width: 0;
+}
+
+.workTopbar {
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.85rem clamp(1rem, 3vw, 2rem);
+}
+
+.workTopbar h1 {
+  color: #0f172a;
+  font-size: clamp(1.25rem, 2.5vw, 1.7rem);
+  font-weight: 900;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.userBadge {
+  align-items: center;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  display: inline-flex;
+  gap: 0.65rem;
+  padding: 0.4rem 0.75rem 0.4rem 0.45rem;
+}
+
+.userBadge>span,
+.avatarLarge {
+  align-items: center;
+  background: linear-gradient(135deg, #ffa500, #ff6b00);
+  color: #fff;
+  display: inline-flex;
+  font-weight: 900;
+  justify-content: center;
+}
+
+.userBadge>span {
+  border-radius: 9px;
+  font-size: 0.82rem;
+  height: 36px;
+  width: 36px;
+}
+
+.userBadge strong,
+.userBadge small {
+  display: block;
+}
+
+.userBadge strong {
+  color: #172033;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.userBadge small {
+  color: #64748b;
+  font-size: 0.72rem;
+  margin-top: 0.1rem;
+}
+
+.workContent {
+  padding: clamp(1rem, 3vw, 1.75rem);
+}
+
+.dashboardStack {
+  display: grid;
+  gap: 1rem;
+}
+
+.welcomePanel {
+  align-items: center;
+  background:
+    linear-gradient(135deg, rgba(13, 116, 197, 0.96), rgba(17, 24, 39, 0.96)),
+    linear-gradient(45deg, rgba(255, 255, 255, 0.12), transparent);
+  border-radius: 16px;
+  color: #fff;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  padding: clamp(1.2rem, 3vw, 1.8rem);
+}
+
+.welcomePanel span {
+  color: #cde7ff;
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 850;
+  margin-bottom: 0.45rem;
+}
+
+.welcomePanel h2 {
+  font-size: clamp(1.55rem, 3vw, 2.35rem);
+  line-height: 1.08;
+  margin: 0;
+}
+
+.welcomePanel p {
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.55;
+  margin: 0.75rem 0 0;
+  max-width: 680px;
+}
+
+.workPrimaryButton {
+  align-items: center;
+  background: #fff;
+  border: 0;
+  border-radius: 10px;
+  color: #0f4f94;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-weight: 850;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.75rem 1rem;
+}
+
+.statGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.statCard,
+.workPanel,
+.profileCard {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.06);
+}
+
+.statCard {
+  display: grid;
+  gap: 0.45rem;
+  min-height: 142px;
+  padding: 1.1rem;
+}
+
+.statCard span {
+  align-items: center;
+  border-radius: 11px;
+  color: #fff;
+  display: inline-flex;
+  height: 42px;
+  justify-content: center;
+  width: 42px;
+}
+
+.statCard.blue span {
+  background: #0d74c5;
+}
+
+.statCard.green span {
+  background: #159a54;
+}
+
+.statCard.orange span {
+  background: #e28512;
+}
+
+.statCard.slate span {
+  background: #334155;
+}
+
+.statCard strong {
+  color: #111827;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.statCard small {
+  color: #64748b;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.dashboardColumns {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.workPanel {
+  padding: 1rem;
+}
+
+.pagePanel {
+  min-height: 460px;
+}
+
+.panelHeader {
+  align-items: flex-start;
+  border-bottom: 1px solid #eef2f7;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-bottom: 0.9rem;
+}
+
+.panelHeader h3 {
+  color: #111827;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.panelHeader p {
+  color: #64748b;
+  line-height: 1.45;
+  margin: 0.3rem 0 0;
+}
+
+.addShortcutButton {
+  align-items: center;
+  background: #0d74c5;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-weight: 850;
+  gap: 0.45rem;
+  min-height: 40px;
+  padding: 0.65rem 0.9rem;
+}
+
+.addShortcutButton:hover {
+  background: #0b65ad;
+}
+
+.shortcutForm {
+  background: #f8fafc;
+  border: 1px solid #dbe5f0;
+  border-radius: 14px;
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.formTitle {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  display: flex;
+  grid-column: 1 / -1;
+  justify-content: space-between;
+  padding: 0.9rem;
+}
+
+.formTitle strong,
+.formTitle small {
+  display: block;
+}
+
+.formTitle strong {
+  color: #172033;
+  font-size: 0.98rem;
+}
+
+.formTitle small {
+  color: #64748b;
+  margin-top: 0.2rem;
+}
+
+.logoPreview {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+}
+
+.logoPreview img {
+  border: 1px solid #d7e1ec;
+  border-radius: 12px;
+  height: 48px;
+  object-fit: cover;
+  width: 48px;
+}
+
+.shortcutForm label {
+  color: #334155;
+  display: grid;
+  font-size: 0.82rem;
+  font-weight: 800;
+  gap: 0.4rem;
+}
+
+/* URL input wrapper with fetching badge */
+.urlInputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.urlInputWrapper input {
+  width: 100%;
+}
+
+.fetchingBadge {
+  animation: pulseFade 1.2s ease-in-out infinite;
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: 8px;
+  color: #92400e;
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 0.3rem 0.6rem;
+}
+
+@keyframes pulseFade {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.55;
+  }
+}
+
+.shortcutForm input {
+  background: #fff;
+  border: 1px solid #d7e1ec;
+  border-radius: 10px;
+  color: #172033;
+  min-height: 42px;
+  outline: 0;
+  padding: 0 0.8rem;
+  width: 100%;
+}
+
+.shortcutForm input:focus {
+  border-color: #0d74c5;
+  box-shadow: 0 0 0 3px rgba(13, 116, 197, 0.12);
+}
+
+.logoPicker,
+.colorPicker,
+.uploadLogo {
+  color: #334155;
+  display: grid;
+  font-size: 0.82rem;
+  font-weight: 800;
+  gap: 0.55rem;
+  grid-column: 1 / -1;
+}
+
+.logoChoiceGrid,
+.colorPicker div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.uploadLogo div {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.logoChoice,
+.colorChoice {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #d7e1ec;
+  border-radius: 10px;
+  color: #475569;
+  display: inline-flex;
+  font-size: 0.8rem;
+  font-weight: 850;
+  gap: 0.45rem;
+  min-height: 38px;
+  padding: 0.5rem 0.7rem;
+}
+
+.logoChoice input,
+.colorChoice input {
+  height: 1px;
+  opacity: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.logoChoice.active,
+.colorChoice.active {
+  background: #eaf4ff;
+  border-color: #0d74c5;
+  color: #0d74c5;
+}
+
+.colorChoice i {
+  border-radius: 999px;
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+}
+
+.colorChoice i.blue {
+  background: #0d74c5;
+}
+
+.colorChoice i.green {
+  background: #159a54;
+}
+
+.colorChoice i.orange {
+  background: #e28512;
+}
+
+.colorChoice i.slate {
+  background: #334155;
+}
+
+.uploadLogoBox,
+.removeLogoButton {
+  align-items: center;
+  border-radius: 10px;
+  display: inline-flex;
+  font-weight: 850;
+  gap: 0.45rem;
+  min-height: 40px;
+  padding: 0.6rem 0.8rem;
+}
+
+.uploadLogoBox {
+  background: #fff;
+  border: 1px solid #d7e1ec;
+  color: #0d74c5;
+}
+
+.uploadLogoBox input {
+  height: 1px;
+  opacity: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.removeLogoButton {
+  background: #fff1f2;
+  border: 1px solid #fecdd3;
+  color: #be123c;
+}
+
+.uploadLogo small {
+  color: #64748b;
+  font-weight: 700;
+}
+
+.shortcutActions {
+  align-items: end;
+  display: flex;
+  gap: 0.65rem;
+  justify-content: flex-end;
+}
+
+.shortcutMessage {
+  background: #ecfdf5;
+  border: 1px solid #bbf7d0;
+  border-radius: 10px;
+  color: #047857;
+  font-size: 0.86rem;
+  font-weight: 800;
+  margin: 0 0 1rem;
+  padding: 0.75rem 0.9rem;
+}
+
+.shortcutCounter {
+  align-items: center;
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  border-radius: 10px;
+  color: #64748b;
+  display: flex;
+  font-size: 0.86rem;
+  font-weight: 750;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem 0.9rem;
+}
+
+.shortcutCounter span {
+  align-items: center;
+  background: #0d74c5;
+  border-radius: 999px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 0.78rem;
+  height: 24px;
+  justify-content: center;
+  min-width: 24px;
+  padding: 0 0.4rem;
+}
+
+/* ── URL Fetch Form (3-step) ─────────────────────────────────────────────── */
+.shortcutForm {
+  background: #f8fafc;
+  border: 1px solid #dbe5f0;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.urlFetchSection,
+.manualEditSection,
+.logoSection {
+  border-bottom: 1px solid #e8eef6;
+  padding: 1rem 1.1rem;
+}
+
+.logoSection {
+  border-bottom: none;
+}
+
+.urlFetchHeader {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 0.85rem;
+}
+
+.urlFetchHeader span {
+  color: #172033;
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.urlFetchHeader small {
+  color: #64748b;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-left: auto;
+}
+
+.urlFetchHeader svg {
+  color: #0d74c5;
+  flex: 0 0 auto;
+}
+
+.urlFetchRow {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.urlFetchInput {
+  background: #fff;
+  border: 1.5px solid #d7e1ec;
+  border-radius: 10px;
+  color: #172033;
+  flex: 1;
+  font-size: 0.93rem;
+  min-height: 44px;
+  outline: 0;
+  padding: 0 0.9rem;
+  transition: border-color 150ms ease;
+}
+
+.urlFetchInput:focus {
+  border-color: #0d74c5;
+  box-shadow: 0 0 0 3px rgba(13, 116, 197, 0.12);
+}
+
+.urlFetchBtn {
+  align-items: center;
+  background: linear-gradient(135deg, #0d74c5, #0b65ad);
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 0.86rem;
+  font-weight: 800;
+  gap: 0.4rem;
+  min-height: 44px;
+  padding: 0 1.1rem;
+  transition: filter 150ms ease, opacity 150ms ease;
+  white-space: nowrap;
+}
+
+.urlFetchBtn:hover:not(:disabled) {
+  filter: brightness(1.1);
+}
+
+.urlFetchBtn:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Spinner dot animation */
+.spinnerDot {
+  animation: spinnerRotate 0.8s linear infinite;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-top-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+}
+
+@keyframes spinnerRotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Preview card */
+.fetchPreviewCard {
+  align-items: flex-start;
+  animation: fadeSlideIn 0.3s ease;
+  background: #fff;
+  border: 1.5px solid #bfdbfe;
+  border-radius: 12px;
+  display: flex;
+  gap: 0.85rem;
+  margin-top: 0.85rem;
+  padding: 0.85rem;
+  position: relative;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fetchPreviewLogo {
+  border-radius: 10px;
+  flex: 0 0 auto;
+  height: 44px;
+  object-fit: contain;
+  width: 44px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+}
+
+.fetchPreviewInfo {
+  display: grid;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.fetchPreviewInfo strong {
+  color: #172033;
+  display: block;
+  font-size: 0.92rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fetchPreviewInfo small {
+  color: #64748b;
+  display: block;
+  font-size: 0.78rem;
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fetchPreviewUrl {
+  color: #0d74c5;
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  margin-top: 0.15rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fetchStatus {
+  border-radius: 8px;
+  flex: 0 0 auto;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.3rem 0.6rem;
+  white-space: nowrap;
+}
+
+.fetchStatus.ok {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.fetchStatus.warn {
+  background: #fff7ed;
+  color: #9a3412;
+}
+
+/* Manual edit fields */
+.manualEditFields {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.manualEditFields label {
+  color: #334155;
+  display: grid;
+  font-size: 0.82rem;
+  font-weight: 800;
+  gap: 0.4rem;
+}
+
+.manualEditFields label em {
+  color: #ef4444;
+  font-style: normal;
+}
+
+.manualEditFields input {
+  background: #fff;
+  border: 1px solid #d7e1ec;
+  border-radius: 10px;
+  color: #172033;
+  min-height: 42px;
+  outline: 0;
+  padding: 0 0.8rem;
+  width: 100%;
+  font-size: 0.88rem;
+}
+
+.manualEditFields input:focus {
+  border-color: #0d74c5;
+  box-shadow: 0 0 0 3px rgba(13, 116, 197, 0.12);
+}
+
+/* Logo section inside new form */
+.logoSection .logoPicker,
+.logoSection .colorPicker,
+.logoSection .uploadLogo {
+  margin-bottom: 0.75rem;
+}
+
+.shortcutActions {
+  border-top: 1px solid #e8eef6;
+  padding: 0.85rem 1.1rem;
+}
+
+.cancelShortcutButton,
+.saveShortcutButton {
+  border-radius: 10px;
+  font-weight: 850;
+  min-height: 42px;
+  padding: 0.65rem 0.9rem;
+}
+
+.cancelShortcutButton {
+  background: #fff;
+  border: 1px solid #d7e1ec;
+  color: #475569;
+}
+
+.saveShortcutButton {
+  background: #159a54;
+  border: 0;
+  color: #fff;
+}
+
+.saveShortcutButton:hover {
+  background: #0f8747;
+}
+
+.agendaList,
+.announcementList,
+.taskList {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.agendaList article,
+.announcementList article,
+.taskList article {
+  background: #f8fafc;
+  border: 1px solid #e8eef6;
+  border-radius: 12px;
+}
+
+.agendaList article {
+  align-items: center;
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: 66px minmax(0, 1fr);
+  padding: 0.85rem;
+}
+
+.agendaList time {
+  background: #eaf4ff;
+  border-radius: 10px;
+  color: #0d74c5;
+  font-size: 0.86rem;
+  font-weight: 900;
+  padding: 0.55rem 0;
+  text-align: center;
+}
+
+.agendaList strong,
+.announcementList strong,
+.internalAppCard strong,
+.taskList strong {
+  color: #172033;
+  display: block;
+}
+
+.agendaList small,
+.announcementList small,
+.internalAppCard small,
+.taskList small {
+  color: #64748b;
+  display: block;
+  font-size: 0.82rem;
+  margin-top: 0.25rem;
+}
+
+.announcementList article {
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.9rem;
+}
+
+.announcementList span {
+  color: #0d74c5;
+  font-size: 0.76rem;
+  font-weight: 900;
+}
+
+.pageList {
+  gap: 1rem;
+}
+
+.internalAppsGrid {
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.internalAppsGrid.expanded {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.internalAppCard {
+  align-items: center;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-height: 82px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.internalAppCard:hover {
+  border-color: #8cc7f3;
+  transform: translateY(-1px);
+  transition: 160ms ease;
+}
+
+.internalAppCard.editable {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.internalAppLink {
+  align-items: center;
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  min-height: 82px;
+  padding: 0.9rem;
+}
+
+.editShortcutButton {
+  align-items: center;
+  align-self: stretch;
+  background: #eef6ff;
+  border: 0;
+  border-left: 1px solid #dbeafe;
+  color: #0d74c5;
+  display: inline-flex;
+  font-size: 0.82rem;
+  font-weight: 900;
+  gap: 0.35rem;
+  justify-content: center;
+  padding: 0 0.85rem;
+}
+
+.editShortcutButton:hover {
+  background: #dbeafe;
+}
+
+.taskList article {
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(170px, 1fr) minmax(140px, 280px) 52px;
+  padding: 1rem;
+}
+
+.taskList b {
+  color: #0d74c5;
+  text-align: right;
+}
+
+.progressTrack {
+  background: #e2e8f0;
+  border-radius: 999px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.progressTrack span {
+  background: linear-gradient(90deg, var(--blue), var(--green));
+  border-radius: inherit;
+  display: block;
+  height: 100%;
+}
+
+.documentGrid,
+.adminGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.documentGrid article,
+.adminGrid article {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  display: grid;
+  gap: 0.55rem;
+  min-height: 160px;
+  padding: 1rem;
+}
+
+.documentGrid svg,
+.adminGrid svg {
+  color: #0d74c5;
+}
+
+.documentGrid strong,
+.adminGrid strong {
+  color: #172033;
+}
+
+.documentGrid small,
+.adminGrid small {
+  color: #64748b;
+  line-height: 1.45;
+}
+
+.documentGrid span {
+  align-self: end;
+  background: #eaf4ff;
+  border-radius: 999px;
+  color: #0d74c5;
+  font-size: 0.72rem;
+  font-weight: 900;
+  justify-self: start;
+  padding: 0.32rem 0.55rem;
+}
+
+.profileGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 290px minmax(0, 1fr);
+}
+
+.profileCard {
+  align-content: center;
+  display: grid;
+  justify-items: center;
+  min-height: 280px;
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.avatarLarge {
+  border-radius: 22px;
+  font-size: 1.8rem;
+  height: 86px;
+  margin-bottom: 1rem;
+  width: 86px;
+}
+
+.profileCard h3 {
+  color: #111827;
+  margin: 0;
+}
+
+.profileCard p {
+  color: #64748b;
+  margin: 0.4rem 0 0;
+}
+
+.profileDetails {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.profileDetails div {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 0.9rem;
+}
+
+.profileDetails dt {
+  color: #64748b;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.profileDetails dd {
+  color: #172033;
+  font-weight: 850;
+  margin: 0.25rem 0 0;
+}
+
+/* ── Tablet (≤ 1060px) ───────────────────────────────────────────────── */
+@media (max-width: 1060px) {
+  .portalShell {
+    grid-template-rows: 64px minmax(560px, 1fr) auto;
+  }
+
+  .appGrid,
+  .statGrid,
+  .internalAppsGrid,
+  .internalAppsGrid.expanded,
+  .documentGrid,
+  .adminGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 700px;
+  }
+
+  .workPortal {
+    grid-template-columns: 220px minmax(0, 1fr);
+  }
+
+  .shortcutForm {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboardColumns,
+  .profileGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Mobile (≤ 768px) — Sidebar jadi bottom nav ──────────────────────── */
+@media (max-width: 768px) {
+
+  /* Portal landing page */
+  .portalShell {
+    grid-template-rows: 64px minmax(0, 1fr) auto;
+  }
+
+  .portalHeader {
+    height: 64px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .portalLogo small {
+    display: none;
+  }
+
+  .loginButton {
+    font-size: 0.82rem;
+    min-height: 36px;
+    padding: 0.45rem 0.85rem;
+  }
+
+  .heroSection {
+    justify-content: flex-start;
+    padding: 1rem 1rem 1.5rem;
+    text-align: center;
+  }
+
+  .heroSection h1 {
+    font-size: clamp(2.4rem, 13vw, 3.5rem);
+    line-height: 0.95;
+  }
+
+  .heroSection p {
+    font-size: 0.82rem;
+    line-height: 1.45;
+    margin: 0.7rem 0 1rem;
+  }
+
+  .searchBox {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .appGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.55rem;
+    margin-top: 0.9rem;
+  }
+
+  .appCard {
+    min-height: 60px;
+    padding: 0.65rem 0.75rem;
+    gap: 0.6rem;
+    border-radius: 12px;
+  }
+
+  .appIcon {
+    height: 34px;
+    width: 34px;
+    border-radius: 10px;
+  }
+
+  .appCopy strong {
+    font-size: 0.8rem;
+  }
+
+  .appCopy small {
+    font-size: 0.68rem;
+  }
+
+  /* ── Work Portal — Sidebar → Bottom Navigation ── */
+  .workPortal {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    padding-bottom: 70px;
+    /* ruang untuk bottom nav */
+  }
+
+  .workSidebar {
+    /* Pindah ke bawah sebagai bottom nav */
+    background: linear-gradient(180deg, #0f1824 0%, #070c17 100%);
+    border-right: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    min-height: 0;
+    order: 2;
+    position: fixed;
+    right: 0;
+    z-index: 50;
+    /* Sembunyikan logo & logout di bottom nav */
+    grid-template-rows: unset;
+    grid-template-columns: unset;
+    padding: 0;
+    align-items: center;
+  }
+
+  /* Sembunyikan logo di sidebar saat mobile */
+  .workSidebar .portalLogo {
+    display: none;
+  }
+
+  /* Sembunyikan logout di sidebar — pindah ke topbar */
+  .logoutButton {
+    display: none;
+  }
+
+  .workNav {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    padding: 0;
+    width: 100%;
+    flex: 1;
+    align-content: unset;
+  }
+
+  /* Hapus label "MENU" di mobile */
+  .workNav::before {
+    display: none;
+  }
+
+  .workNavButton {
+    border-radius: 0;
+    border: 0;
+    flex: 1;
+    flex-direction: column;
+    font-size: 0.62rem;
+    gap: 0.25rem;
+    justify-content: center;
+    min-height: 60px;
+    padding: 0.5rem 0.25rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .workNavButton svg {
+    opacity: 0.9;
+  }
+
+  .workNavButton.active {
+    background: linear-gradient(180deg, rgba(255, 165, 0, 0.18), rgba(255, 140, 0, 0.08));
+    border-bottom: 3px solid #ffa500;
+    border-radius: 0;
+    color: #ffa500;
+  }
+
+  /* Topbar */
+  .workMain {
+    order: 1;
+  }
+
+  .workTopbar {
+    padding: 0.65rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .workTopbar h1 {
+    font-size: 1.1rem;
+  }
+
+  .userBadge {
+    gap: 0.45rem;
+    padding: 0.3rem 0.6rem 0.3rem 0.35rem;
+  }
+
+  .userBadge>span {
+    height: 30px;
+    width: 30px;
+    font-size: 0.72rem;
+    border-radius: 7px;
+  }
+
+  .userBadge strong {
+    font-size: 0.78rem;
+  }
+
+  .userBadge small {
+    font-size: 0.65rem;
+  }
+
+  /* Tombol logout muncul di topbar */
+  .workTopbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  /* Dashboard */
+  .workContent {
+    padding: 0.85rem;
+  }
+
+  .welcomePanel {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .welcomePanel h2 {
+    font-size: 1.3rem;
+  }
+
+  .workPrimaryButton {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .statGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .statCard {
+    min-height: 110px;
+    padding: 0.85rem;
+  }
+
+  .statCard strong {
+    font-size: 1.6rem;
+  }
+
+  .dashboardColumns,
+  .profileGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .internalAppsGrid,
+  .internalAppsGrid.expanded {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .documentGrid,
+  .adminGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .taskList article {
+    grid-template-columns: 1fr;
+  }
+
+  .taskList b {
+    text-align: left;
+  }
+
+  .panelHeader {
+    gap: 0.7rem;
+    flex-wrap: wrap;
+  }
+
+  .panelHeader h3 {
+    font-size: 0.98rem;
+  }
+
+  .addShortcutButton,
+  .cancelShortcutButton,
+  .saveShortcutButton {
+    width: 100%;
+  }
+
+  .shortcutActions {
+    flex-direction: column;
+  }
+
+  /* Login modal di HP — floating centered card */
+  .modalLayer {
+    align-items: center;
+    padding: 1.2rem;
+  }
+
+  .loginContainer {
+    display: none;
+    /* sembunyikan animasi bars di HP — terlalu besar */
+  }
+
+  .loginBox {
+    border-radius: 20px;
+    margin: 0;
+    padding: 1.6rem 1.4rem 1.8rem;
+    width: 100%;
+    max-width: 400px;
+    max-height: 88vh;
+    overflow-y: auto;
+    animation: loginScaleUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  @keyframes loginScaleUp {
+    from {
+      opacity: 0;
+      transform: scale(0.92);
+    }
+
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .loginLogoImg {
+    height: 48px;
+    width: 48px;
+  }
+
+  .loginTitle {
+    font-size: 1.3rem;
+  }
+
+  /* URL fetch form di mobile */
+  .manualEditFields {
+    grid-template-columns: 1fr;
+  }
+
+  .urlFetchRow {
+    flex-direction: column;
+  }
+
+  .urlFetchBtn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* ── Kecil sekali (≤ 400px) ──────────────────────────────────────────── */
+@media (max-width: 400px) {
+  .appGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.45rem;
+  }
+
+  .appCard {
+    min-height: 54px;
+    padding: 0.55rem 0.6rem;
+    gap: 0.5rem;
+  }
+
+  .appIcon {
+    height: 30px;
+    width: 30px;
+  }
+
+  .appCopy strong {
+    font-size: 0.74rem;
+  }
+
+  .appCopy small {
+    font-size: 0.62rem;
+  }
+
+  .statGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .internalAppsGrid,
+  .internalAppsGrid.expanded,
+  .documentGrid,
+  .adminGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .workNavButton {
+    font-size: 0.55rem;
+  }
+}
+
+/* Logo URL input row */
+.logoUrlInputRow {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+}
+
+.logoUrlInputRow>input {
+  background: #fff;
+  border: 1px solid #d7e1ec;
+  border-radius: 10px;
+  color: #172033;
+  flex: 1;
+  font-size: 0.85rem;
+  min-height: 40px;
+  min-width: 180px;
+  outline: 0;
+  padding: 0 0.75rem;
+}
+
+.logoUrlInputRow>input:focus {
+  border-color: #0d74c5;
+  box-shadow: 0 0 0 3px rgba(13, 116, 197, 0.12);
+}
+
+.logoUrlPreview {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  flex: 0 0 auto;
+  height: 40px;
+  object-fit: contain;
+  padding: 3px;
+  width: 40px;
+}
+
+/* ── Mobile Logout Button (muncul di topbar HP) ─────────────────────────── */
+.mobileLogoutBtn {
+  display: none;
+  /* disembunyikan di desktop */
+}
+
+@media (max-width: 768px) {
+  .mobileLogoutBtn {
+    align-items: center;
+    background: rgba(239, 68, 68, 0.12);
+    border: 1px solid rgba(239, 68, 68, 0.25);
+    border-radius: 9px;
+    color: #ef4444;
+    cursor: pointer;
+    display: inline-flex;
+    flex-shrink: 0;
+    height: 36px;
+    justify-content: center;
+    transition: background 160ms ease;
+    width: 36px;
+  }
+
+  .mobileLogoutBtn:hover,
+  .mobileLogoutBtn:active {
+    background: rgba(239, 68, 68, 0.24);
+  }
+
+  /* Safe-area untuk iPhone (home indicator bar) */
+  .workSidebar {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .workPortal {
+    padding-bottom: calc(70px + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+/* ── DB / Sync Status Badge ─────────────────────────────────────────────── */
+.dbBadge {
+  align-items: center;
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 0.73rem;
+  font-weight: 800;
+  gap: 0.3rem;
+  padding: 0.28rem 0.65rem;
+  white-space: nowrap;
+}
+
+.dbBadge.synced {
+  background: #dcfce7;
+  border: 1px solid #bbf7d0;
+  color: #15803d;
+}
+
+.dbBadge.local {
+  background: #fef9c3;
+  border: 1px solid #fde68a;
+  color: #92400e;
+}
+
+.dbBadge.loading {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  color: #1d4ed8;
+  gap: 0.5rem;
+}
+
+/* ── Card Actions (edit + delete tombol di InternalAppCard) ─────────────── */
+.internalAppCard.editable {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.cardActions {
+  align-items: stretch;
+  border-left: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+}
+
+.editShortcutButton,
+.deleteShortcutButton {
+  align-items: center;
+  align-self: stretch;
+  border: 0;
+  display: inline-flex;
+  font-size: 0.78rem;
+  font-weight: 900;
+  justify-content: center;
+  min-width: 42px;
+  padding: 0;
+  transition: background 150ms ease;
+}
+
+.editShortcutButton {
+  background: #eef6ff;
+  border-bottom: 1px solid #e2e8f0;
+  color: #0d74c5;
+}
+
+.editShortcutButton:hover {
+  background: #dbeafe;
+}
+
+.deleteShortcutButton {
+  background: #fff1f2;
+  color: #be123c;
+}
+
+.deleteShortcutButton:hover {
+  background: #ffe4e6;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BANNER CAROUSEL POPUP
+═══════════════════════════════════════════════════════════════════════════ */
+
+.bannerOverlay {
+  align-items: center;
+  animation: bannerFadeIn 0.35s ease;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 1.5rem;
+  position: fixed;
+  z-index: 50;
+}
+
+@keyframes bannerFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.bannerCarousel {
+  animation: bannerSlideUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  background: #0d1525;
+  border-radius: 18px;
+  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.6);
+  max-height: 90vh;
+  max-width: 820px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+@keyframes bannerSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.bannerClose {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  justify-content: center;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  transition: background 0.2s, transform 0.2s;
+  width: 36px;
+  z-index: 10;
+}
+
+.bannerClose:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+/* Slide: full background image */
+.bannerSlide {
+  background-color: #111a28;
+  background-position: center;
+  background-size: cover;
+  min-height: 440px;
+  position: relative;
+  transition: opacity 0.4s ease;
+  width: 100%;
+}
+
+.bannerSlide.animating {
+  opacity: 0.35;
+}
+
+/* Gradient agar teks terbaca — kuat di kiri, transparan di kanan */
+.bannerGradient {
+  background: linear-gradient(90deg,
+      rgba(8, 13, 28, 0.92) 0%,
+      rgba(8, 13, 28, 0.7) 50%,
+      rgba(8, 13, 28, 0.1) 100%);
+  inset: 0;
+  position: absolute;
+}
+
+/* Konten teks — bottom-left seperti referensi */
+.bannerContent {
+  bottom: 6rem;
+  left: 2.5rem;
+  max-width: 480px;
+  position: absolute;
+  z-index: 2;
+}
+
+.bannerTag {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 0.9rem;
+  padding: 0.28rem 0.9rem;
+  text-transform: uppercase;
+}
+
+.bannerTitle {
+  color: #fff;
+  font-size: clamp(1.7rem, 4vw, 2.8rem);
+  font-weight: 900;
+  line-height: 1.1;
+  margin: 0 0 0.8rem;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+}
+
+.bannerHighlight {
+  color: #4ab3f4;
+}
+
+.bannerDesc {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: clamp(0.85rem, 1.4vw, 1rem);
+  line-height: 1.65;
+  margin: 0 0 1.5rem;
+}
+
+.bannerBtn {
+  background: rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding: 0.75rem 1.8rem;
+  text-transform: uppercase;
+  transition: background 0.25s, border-color 0.25s, transform 0.2s;
+}
+
+.bannerBtn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Dots navigasi */
+.bannerDots {
+  bottom: 1.1rem;
+  display: flex;
+  gap: 0.45rem;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.bannerDot {
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 8px;
+  padding: 0;
+  transition: background 0.25s, width 0.25s, border-radius 0.25s;
+  width: 8px;
+}
+
+.bannerDot.active {
+  background: #fff;
+  border-radius: 4px;
+  width: 24px;
+}
+
+/* Mobile: floating centered card seperti referensi */
+@media (max-width: 600px) {
+  .bannerOverlay {
+    align-items: center;
+    padding: 1.2rem;
+  }
+
+  .bannerCarousel {
+    border-radius: 20px;
+    max-height: 80vh;
+    width: 100%;
+  }
+
+  .bannerSlide {
+    border-radius: 20px;
+    min-height: 68vw;
+  }
+
+  /* Dots pindah ke ATAS-KIRI seperti referensi */
+  .bannerDots {
+    bottom: unset;
+    justify-content: flex-start;
+    left: 1.2rem;
+    padding: 0;
+    top: 1.2rem;
+    width: auto;
+  }
+
+  .bannerContent {
+    bottom: 1.8rem;
+    left: 1.2rem;
+    max-width: calc(100% - 2.4rem);
+  }
+
+  .bannerTitle {
+    font-size: clamp(1.4rem, 7vw, 2rem);
+    margin-bottom: 0.5rem;
+  }
+
+  .bannerDesc {
+    font-size: 0.82rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .bannerBtn {
+    font-size: 0.72rem;
+    padding: 0.65rem 1.3rem;
+  }
+
+  .bannerClose {
+    right: 0.8rem;
+    top: 0.8rem;
+  }
+}

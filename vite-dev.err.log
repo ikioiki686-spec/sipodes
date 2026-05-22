@@ -1,0 +1,1604 @@
+[2m15.02.38[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unexpected token
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:192:1 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m192 │[0m }
+ [38;5;240m    │[0m ┬  
+ [38;5;240m    │[0m ╰── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.02.38[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unexpected token
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:192:1 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m192 │[0m }
+ [38;5;240m    │[0m ┬  
+ [38;5;240m    │[0m ╰── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.02.38[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unexpected token
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:192:1 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m192 │[0m }
+ [38;5;240m    │[0m ┬  
+ [38;5;240m    │[0m ╰── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+[2m15.02.38[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unexpected token
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:192:1 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m192 │[0m }
+ [38;5;240m    │[0m ┬  
+ [38;5;240m    │[0m ╰── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.02.38[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unexpected token
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:192:1 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m192 │[0m }
+ [38;5;240m    │[0m ┬  
+ [38;5;240m    │[0m ╰── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+[2m15.02.38[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unexpected token
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:192:1 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m192 │[0m }
+ [38;5;240m    │[0m ┬  
+ [38;5;240m    │[0m ╰── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+[2m15.02.38[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unexpected token
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:192:1 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m192 │[0m }
+ [38;5;240m    │[0m ┬  
+ [38;5;240m    │[0m ╰── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.02.41[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unexpected token
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:192:1 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m192 │[0m }
+ [38;5;240m    │[0m ┬  
+ [38;5;240m    │[0m ╰── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.02.41[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unexpected token
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:192:1 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m192 │[0m }
+ [38;5;240m    │[0m ┬  
+ [38;5;240m    │[0m ╰── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.02.50[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: PortalLogo is not defined
+[39m > App src/main.jsx:950:9
+    948 |  
+    949 |        <header className="portalHeader">
+    950 |          <PortalLogo />
+        |           ^
+    951 |          <button className="loginButton" type="button" onClick={() => setIsLoginOpen(true)}>
+    952 |            <LogIn size={16} />
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:17641:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:17469:40
+ > renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:17450:10
+ > performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:16583:34
+
+[2m15.02.50[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m15.02.50[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: PortalLogo is not defined
+[39m > App src/main.jsx:950:9
+    948 |  
+    949 |        <header className="portalHeader">
+    950 |          <PortalLogo />
+        |           ^
+    951 |          <button className="loginButton" type="button" onClick={() => setIsLoginOpen(true)}>
+    952 |            <LogIn size={16} />
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:17641:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:17469:40
+ > renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:17450:10
+ > performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:16583:34
+
+[2m15.02.50[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m15.02.51[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: PortalLogo is not defined
+[39m > App src/main.jsx:950:9
+    948 |  
+    949 |        <header className="portalHeader">
+    950 |          <PortalLogo />
+        |           ^
+    951 |          <button className="loginButton" type="button" onClick={() => setIsLoginOpen(true)}>
+    952 |            <LogIn size={16} />
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:17641:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:17469:40
+ > renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:17450:10
+ > performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:16583:34
+
+[2m15.02.51[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m15.02.53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: PortalLogo is not defined
+[39m > App src/main.jsx:950:9
+    948 |  
+    949 |        <header className="portalHeader">
+    950 |          <PortalLogo />
+        |           ^
+    951 |          <button className="loginButton" type="button" onClick={() => setIsLoginOpen(true)}>
+    952 |            <LogIn size={16} />
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:17641:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:17469:40
+ > renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:17450:10
+ > performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:16583:34
+
+[2m15.02.53[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m15.04.20[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: PortalLogo is not defined
+[39m > App src/main.jsx:950:9
+    948 |  
+    949 |        <header className="portalHeader">
+    950 |          <PortalLogo />
+        |           ^
+    951 |          <button className="loginButton" type="button" onClick={() => setIsLoginOpen(true)}>
+    952 |            <LogIn size={16} />
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:17641:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:17469:40
+ > renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:17450:10
+ > performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:16583:34
+
+[2m15.04.20[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m15.28.45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.28.45[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.28.46[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.28.46[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.28.46[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.29.01[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.29.01[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.29.01[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.29.02[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.29.05[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.29.05[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.29.05[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+[2m15.29.05[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+[2m15.29.07[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.29.07[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.29.15[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.29.15[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.29.16[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.29.16[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.29.16[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.29.17[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.29.17[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.29.18[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.29.18[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.29.46[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.29.46[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.29.46[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+[2m15.29.46[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+[2m15.29.49[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.29.49[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.30.00[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.30.00[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.30.26[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.30.26[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.30.26[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.30.26[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.30.26[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.30.28[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.30.28[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.30.29[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.30.29[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.30.29[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.30.29[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.30.29[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.30.29[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.32.09[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.32.10[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.32.11[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.32.11[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.32.12[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.32.12[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.32.14[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.32.14[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.32.21[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.32.21[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.32.22[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.32.22[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.32.24[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m15.32.24[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m15.32.31[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated regular expression
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:198:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m198 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m/span>
+ [38;5;240m    │[0m        ───┬───  
+ [38;5;240m    │[0m           ╰───── 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m19.48.55[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1047:60
+    1045 |    const [activeUser, setActiveUser] = React.useState("");
+    1046 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1047 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1048 |    const filteredApps = portalApps.filter((app) =>
+    1049 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1047:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.48.55[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.48.55[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1047:60
+    1045 |    const [activeUser, setActiveUser] = React.useState("");
+    1046 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1047 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1048 |    const filteredApps = portalApps.filter((app) =>
+    1049 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1047:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.48.56[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1047:60
+    1045 |    const [activeUser, setActiveUser] = React.useState("");
+    1046 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1047 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1048 |    const filteredApps = portalApps.filter((app) =>
+    1049 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1047:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.48.56[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.48.56[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.48.58[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1047:60
+    1045 |    const [activeUser, setActiveUser] = React.useState("");
+    1046 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1047 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1048 |    const filteredApps = portalApps.filter((app) =>
+    1049 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1047:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.48.58[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.49.07[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1048:60
+    1046 |    const [activeUser, setActiveUser] = React.useState("");
+    1047 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1048 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1049 |    const filteredApps = portalApps.filter((app) =>
+    1050 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1048:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.49.07[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.49.07[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1048:60
+    1046 |    const [activeUser, setActiveUser] = React.useState("");
+    1047 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1048 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1049 |    const filteredApps = portalApps.filter((app) =>
+    1050 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1048:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.49.07[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.49.08[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1048:60
+    1046 |    const [activeUser, setActiveUser] = React.useState("");
+    1047 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1048 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1049 |    const filteredApps = portalApps.filter((app) =>
+    1050 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1048:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.49.08[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.49.27[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1048:60
+    1046 |    const [activeUser, setActiveUser] = React.useState("");
+    1047 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1048 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1049 |    const filteredApps = portalApps.filter((app) =>
+    1050 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1048:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.49.27[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.49.27[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1048:60
+    1046 |    const [activeUser, setActiveUser] = React.useState("");
+    1047 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1048 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1049 |    const filteredApps = portalApps.filter((app) =>
+    1050 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1048:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.49.27[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.49.27[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1048:60
+    1046 |    const [activeUser, setActiveUser] = React.useState("");
+    1047 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1048 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1049 |    const filteredApps = portalApps.filter((app) =>
+    1050 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1048:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.49.27[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.49.30[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1048:60
+    1046 |    const [activeUser, setActiveUser] = React.useState("");
+    1047 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1048 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1049 |    const filteredApps = portalApps.filter((app) =>
+    1050 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1048:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.49.30[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.49.58[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1048:60
+    1046 |    const [activeUser, setActiveUser] = React.useState("");
+    1047 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1048 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1049 |    const filteredApps = portalApps.filter((app) =>
+    1050 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1048:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.49.58[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.49.59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1048:60
+    1046 |    const [activeUser, setActiveUser] = React.useState("");
+    1047 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1048 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1049 |    const filteredApps = portalApps.filter((app) =>
+    1050 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1048:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.49.59[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.50.01[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1048:60
+    1046 |    const [activeUser, setActiveUser] = React.useState("");
+    1047 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1048 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1049 |    const filteredApps = portalApps.filter((app) =>
+    1050 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1048:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.50.01[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.50.19[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1048:60
+    1046 |    const [activeUser, setActiveUser] = React.useState("");
+    1047 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1048 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1049 |    const filteredApps = portalApps.filter((app) =>
+    1050 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1048:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.50.19[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m19.50.21[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: apps is not defined
+[39m > src/main.jsx:1048:60
+    1046 |    const [activeUser, setActiveUser] = React.useState("");
+    1047 |    const [customApps, setCustomApps] = React.useState(loadSavedShortcuts);
+    1048 |    const portalApps = React.useMemo(() => [...customApps, ...apps], [customApps]);
+         |                                                              ^
+    1049 |    const filteredApps = portalApps.filter((app) =>
+    1050 |      `${app.name} ${app.description}`.toLowerCase().includes(query.toLowerCase())
+ > mountMemo node_modules/react-dom/cjs/react-dom-client.development.js:8777:22
+ > Object.useMemo node_modules/react-dom/cjs/react-dom-client.development.js:26216:17
+ > exports.useMemo node_modules/react/cjs/react.development.js:1251:33
+ > App src/main.jsx:1048:27
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25904:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:7662:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10166:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:11778:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+
+[2m19.50.21[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <App> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m23.42.11[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unexpected token. Did you mean `{'>'}` or `&gt;`?
+      [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:1148:61 [38;5;246m][0m
+      [38;5;246m│[0m
+ [38;5;246m1148 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m[38;5;249mp[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249mt[0m[38;5;249my[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249m=[0m[38;5;249m"[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mx[0m[38;5;249mt[0m[38;5;249m-[0m[38;5;249ma[0m[38;5;249ml[0m[38;5;249mi[0m[38;5;249mg[0m[38;5;249mn[0m[38;5;249m:[0m[38;5;249m [0m[38;5;249mc[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249m;[0m[38;5;249m"[0m[38;5;249m>[0m[38;5;249mc[0m[38;5;249ml[0m[38;5;249ma[0m[38;5;249ms[0m[38;5;249ms[0m[38;5;249mN[0m[38;5;249ma[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249m=[0m[38;5;249m"[0m[38;5;249mc[0m[38;5;249mo[0m[38;5;249mp[0m[38;5;249my[0m[38;5;249mr[0m[38;5;249mi[0m[38;5;249mg[0m[38;5;249mh[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m>[0m[38;5;249m&[0m[38;5;249mc[0m[38;5;249mo[0m[38;5;249mp[0m[38;5;249my[0m[38;5;249m;[0m[38;5;249m [0m[38;5;249m2[0m[38;5;249m0[0m[38;5;249m2[0m[38;5;249m6[0m[38;5;249m [0m[38;5;249mT[0m[38;5;249mI[0m[38;5;249mM[0m[38;5;249m [0m[38;5;249mI[0m[38;5;249mP[0m[38;5;249mD[0m[38;5;249mS[0m[38;5;249m.[0m[38;5;249m [0m[38;5;249mA[0m[38;5;249ml[0m[38;5;249ml[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249mi[0m[38;5;249mg[0m[38;5;249mh[0m[38;5;249mt[0m[38;5;249ms[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249mv[0m[38;5;249me[0m[38;5;249md[0m[38;5;249m.[0m[38;5;249m<[0m[38;5;249m/[0m[38;5;249mp[0m[38;5;249m>[0m
+ [38;5;240m     │[0m                                                             │ 
+ [38;5;240m     │[0m                                                             ╰─ 
+[38;5;246m──────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+[2m23.42.12[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unexpected token. Did you mean `{'>'}` or `&gt;`?
+      [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:1148:61 [38;5;246m][0m
+      [38;5;246m│[0m
+ [38;5;246m1148 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m[38;5;249mp[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249mt[0m[38;5;249my[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249m=[0m[38;5;249m"[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mx[0m[38;5;249mt[0m[38;5;249m-[0m[38;5;249ma[0m[38;5;249ml[0m[38;5;249mi[0m[38;5;249mg[0m[38;5;249mn[0m[38;5;249m:[0m[38;5;249m [0m[38;5;249mc[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249m;[0m[38;5;249m"[0m[38;5;249m>[0m[38;5;249mc[0m[38;5;249ml[0m[38;5;249ma[0m[38;5;249ms[0m[38;5;249ms[0m[38;5;249mN[0m[38;5;249ma[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249m=[0m[38;5;249m"[0m[38;5;249mc[0m[38;5;249mo[0m[38;5;249mp[0m[38;5;249my[0m[38;5;249mr[0m[38;5;249mi[0m[38;5;249mg[0m[38;5;249mh[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m>[0m[38;5;249m&[0m[38;5;249mc[0m[38;5;249mo[0m[38;5;249mp[0m[38;5;249my[0m[38;5;249m;[0m[38;5;249m [0m[38;5;249m2[0m[38;5;249m0[0m[38;5;249m2[0m[38;5;249m6[0m[38;5;249m [0m[38;5;249mT[0m[38;5;249mI[0m[38;5;249mM[0m[38;5;249m [0m[38;5;249mI[0m[38;5;249mP[0m[38;5;249mD[0m[38;5;249mS[0m[38;5;249m.[0m[38;5;249m [0m[38;5;249mA[0m[38;5;249ml[0m[38;5;249ml[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249mi[0m[38;5;249mg[0m[38;5;249mh[0m[38;5;249mt[0m[38;5;249ms[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249mv[0m[38;5;249me[0m[38;5;249md[0m[38;5;249m.[0m[38;5;249m<[0m[38;5;249m/[0m[38;5;249mp[0m[38;5;249m>[0m
+ [38;5;240m     │[0m                                                             │ 
+ [38;5;240m     │[0m                                                             ╰─ 
+[38;5;246m──────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Admin/pokja/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3343:19)
+      at TransformPluginContext.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:3411:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:30164:51)
+      at async loadAndTransform (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24512:26)
+      at async viteTransformMiddleware (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:24306:20)
+[2m23.42.30[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mError[22m: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[39m > setValueForStyles node_modules/react-dom/cjs/react-dom-client.development.js:2739:14
+ > setProp node_modules/react-dom/cjs/react-dom-client.development.js:19968:10
+ > setInitialProperties node_modules/react-dom/cjs/react-dom-client.development.js:20753:12
+ > completeWork node_modules/react-dom/cjs/react-dom-client.development.js:12662:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > completeUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:17777:18
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:17658:10
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:17469:40
+ > renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:17450:10
+ > performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:16583:34
+
+[2m23.42.30[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <p> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m23.42.41[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mError[22m: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[39m > setValueForStyles node_modules/react-dom/cjs/react-dom-client.development.js:2739:14
+ > setProp node_modules/react-dom/cjs/react-dom-client.development.js:19968:10
+ > setInitialProperties node_modules/react-dom/cjs/react-dom-client.development.js:20753:12
+ > completeWork node_modules/react-dom/cjs/react-dom-client.development.js:12662:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > completeUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:17777:18
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:17658:10
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:17469:40
+ > renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:17450:10
+ > performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:16583:34
+
+[2m23.42.41[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <p> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m23.42.44[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mError[22m: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[39m > setValueForStyles node_modules/react-dom/cjs/react-dom-client.development.js:2739:14
+ > setProp node_modules/react-dom/cjs/react-dom-client.development.js:19968:10
+ > setInitialProperties node_modules/react-dom/cjs/react-dom-client.development.js:20753:12
+ > completeWork node_modules/react-dom/cjs/react-dom-client.development.js:12662:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > completeUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:17777:18
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:17658:10
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:17469:40
+ > renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:17450:10
+ > performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:16583:34
+
+[2m23.42.44[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <p> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m23.45.37[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] C:/Users/Admin/pokja/src/styles.css:104:1: Unexpected }[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/Admin/pokja/src/styles.css[39m:104:0
+[33m  102 |    z-index: 2;
+  103 |  }
+  104 |  }
+      |  ^
+  105 |  
+  106 |  .portalLogo {[39m
+      at Input.error (C:\Users\Admin\pokja\node_modules\postcss\lib\input.js:135:16)
+      at Parser.unexpectedClose (C:\Users\Admin\pokja\node_modules\postcss\lib\parser.js:587:22)
+      at Parser.end (C:\Users\Admin\pokja\node_modules\postcss\lib\parser.js:330:12)
+      at Parser.parse (C:\Users\Admin\pokja\node_modules\postcss\lib\parser.js:456:16)
+      at parse (C:\Users\Admin\pokja\node_modules\postcss\lib\parse.js:11:12)
+      at new LazyResult (C:\Users\Admin\pokja\node_modules\postcss\lib\lazy-result.js:165:16)
+      at Processor.process (C:\Users\Admin\pokja\node_modules\postcss\lib\processor.js:53:14)
+      at runPostCSS (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:21046:66)
+      at async compilePostCSS (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:21030:6)
+      at async compileCSS (file:///C:/Users/Admin/pokja/node_modules/vite/dist/node/chunks/node.js:20960:26)
+[2m23.45.37[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/styles.css. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m23.46.19[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] C:/Users/Admin/pokja/src/styles.css:101:20: Double colon[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/Admin/pokja/src/styles.css[39m:101:19
+[33m  99  |    background: rgba(8, 12, 25, 0.95);
+  100 |    border-top: 1px solid rgba(255, 255, 255, 0.03);
+  101 |    justify-content: : center;
+      |                     ^
+  102 |    z-index: 2;
+  103 |  }[39m
+      at Input.error (C:\Users\Admin\pokja\node_modules\postcss\lib\input.js:135:16)
+      at Parser.doubleColon (C:\Users\Admin\pokja\node_modules\postcss\lib\parser.js:301:22)
+      at Parser.colon (C:\Users\Admin\pokja\node_modules\postcss\lib\parser.js:159:16)
+      at Parser.checkMissedSemicolon (C:\Users\Admin\pokja\node_modules\postcss\lib\parser.js:123:22)
+      at Parser.decl (C:\Users\Admin\pokja\node_modules\postcss\lib\parser.js:296:12)
+      at Parser.other (C:\Users\Admin\pokja\node_modules\postcss\lib\parser.js:401:18)
+      at Parser.parse (C:\Users\Admin\pokja\node_modules\postcss\lib\parser.js:472:16)
+      at parse (C:\Users\Admin\pokja\node_modules\postcss\lib\parse.js:11:12)
+      at new LazyResult (C:\Users\Admin\pokja\node_modules\postcss\lib\lazy-result.js:165:16)
+      at Processor.process (C:\Users\Admin\pokja\node_modules\postcss\lib\processor.js:53:14)
+[2m23.46.19[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/styles.css. This could be due to syntax errors or importing non-existent modules. (see errors above)

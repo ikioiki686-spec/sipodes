@@ -1,0 +1,24 @@
+{
+  "name": "POKJA - BPS Labuhanbatu Utara",
+  "short_name": "POKJA",
+  "description": "Portal Kerja Badan Pusat Statistik Kabupaten Labuhanbatu Utara",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070b16",
+  "theme_color": "#0d1220",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logobps.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logobps.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
